@@ -18,6 +18,7 @@ public class Clock : PickUp
         }
         Destroy(this.gameObject);
     }
-  
+   
+
 
 }

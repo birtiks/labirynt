@@ -13,7 +13,7 @@ public class PickUp : MonoBehaviour
     {
         Rotation();
     }
-    private void Rotation()
+    public void Rotation()
     {
         transform.Rotate(new Vector3(2f, 0f, 0f));
     }
