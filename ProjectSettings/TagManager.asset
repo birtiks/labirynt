@@ -8,6 +8,7 @@ TagManager:
   - Fast
   - PickUP
   - PickUp
+  - Wall
   layers:
   - Default
   - TransparentFX

@@ -9,9 +9,17 @@ public class Lock : MonoBehaviour
     public KeyColor myColor;
     bool locked = false;
     Animator keyAnimator;
+
     private void Start()
     {
         keyAnimator = GetComponent<Animator>();
+    }
+    public void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.E) && iCanOpen && !locked)
+        {
+            keyAnimator.SetBool("useKey", CheckTheKey());
+        }
     }
     public void UseKey()
     {
