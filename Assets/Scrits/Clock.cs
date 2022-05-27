@@ -8,6 +8,7 @@ public class Clock : PickUp
     public int time = 5;
     public override void Picked()
     {
+        GameManager.gameManager.PLayCLip(pickedCLip);
         if (addTime)
         { 
         GameManager.gameManager.AddTime(time);

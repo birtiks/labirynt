@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickUp : MonoBehaviour
 {
+    public AudioClip pickedCLip;
     public virtual void Picked()
     {
         Debug.Log("Picked!");
